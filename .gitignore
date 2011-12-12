@@ -1,0 +1,6 @@
+gpx_files/*.gpx
+hgt_files/*.hgt
+bin/*.class
+.classpath
+.project
+.settings
