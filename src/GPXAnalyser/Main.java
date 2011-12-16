@@ -15,11 +15,11 @@ package GPXAnalyser;
 public class Main {
   public static void main(String args[]){
     ReadFile file;
-    AnalyseHgt coordinates;
+    AnalyseGPX coordinates;
     
     /* scan for input file */
     file = new ReadFile(args[0]);
-    coordinates = new AnalyseHgt();
+    coordinates = new AnalyseGPX();
     coordinates.analyseCoordinates(file);
     
     file.fileClose();

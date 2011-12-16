@@ -101,11 +101,18 @@ public class ReadFile
 	 * 
 	 * @return raf
 	 */
-	public RandomAccessFile getHgtFile()
+	public RandomAccessFile getFile()
 	{
 	  return this.raf;
 	}
 	
+	
+	/**
+	 * This method set
+	 */
+	public void setFile(RandomAccessFile file){
+	  this.raf = file;
+	}
 	/**
 	 * Close the Hgt-File.
 	 * 
